@@ -18,13 +18,14 @@ for (var k = 1; k <= b; k++) {
 }
 console.log(num1);
 
-var obj = {
-  id: 1234,
-  name: "Rajesh",
-  salary: "12k",
-  disgnation: "Engineer",
-};
-console.log(obj);
+//Change Object key
+// var obj = {
+//   id: 1234,
+//   name: "Rajesh",
+//   salary: "12k",
+//   disgnation: "Engineer",
+// };
+// console.log(obj);
 //prime numbers
 console.log("Prime Numbers 1 to 100");
 var x = 2;
@@ -41,7 +42,7 @@ while (x <= 100) {
   }
   x++;
 }
-
+//Fibonacci series
 var a = 0;
 var b = 1;
 var c;
