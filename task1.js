@@ -18,14 +18,18 @@ for (var k = 1; k <= b; k++) {
 }
 console.log(num1);
 
-//Change Object key
-// var obj = {
-//   id: 1234,
-//   name: "Rajesh",
-//   salary: "12k",
-//   disgnation: "Engineer",
-// };
-// console.log(obj);
+Change Object key
+var obj = {
+  id: 1234,
+  name: "Rajesh",
+  sal: "12k",
+  disgnation: "Engineer",
+};
+obj.salary=obj.sal;
+delete obj.sal;
+console.log(obj);
+
+
 //prime numbers
 console.log("Prime Numbers 1 to 100");
 var x = 2;
